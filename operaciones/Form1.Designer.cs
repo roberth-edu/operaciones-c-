@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.gbDatos = new System.Windows.Forms.GroupBox();
-            this.lblNumero1 = new System.Windows.Forms.Label();
-            this.txtIngresarUno = new System.Windows.Forms.TextBox();
+            this.btnMultiplicar = new System.Windows.Forms.Button();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.txtIngresarDos = new System.Windows.Forms.TextBox();
             this.lblNumero2 = new System.Windows.Forms.Label();
-            this.lblResultado = new System.Windows.Forms.Label();
-            this.btnMultiplicar = new System.Windows.Forms.Button();
-            this.btnDividir = new System.Windows.Forms.Button();
+            this.txtIngresarUno = new System.Windows.Forms.TextBox();
+            this.lblNumero1 = new System.Windows.Forms.Label();
             this.btnResta = new System.Windows.Forms.Button();
+            this.btnDividir = new System.Windows.Forms.Button();
             this.btnSuma = new System.Windows.Forms.Button();
             this.gbDatos.SuspendLayout();
             this.SuspendLayout();
@@ -59,24 +59,27 @@
             this.gbDatos.TabStop = false;
             this.gbDatos.Text = "datos";
             // 
-            // lblNumero1
+            // btnMultiplicar
             // 
-            this.lblNumero1.AutoSize = true;
-            this.lblNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblNumero1.Location = new System.Drawing.Point(18, 62);
-            this.lblNumero1.Name = "lblNumero1";
-            this.lblNumero1.Size = new System.Drawing.Size(90, 17);
-            this.lblNumero1.TabIndex = 0;
-            this.lblNumero1.Text = "Numero uno:";
-            this.lblNumero1.Click += new System.EventHandler(this.lblNumero1_Click);
+            this.btnMultiplicar.Image = global::operaciones.Properties.Resources.letter_x_10085987;
+            this.btnMultiplicar.Location = new System.Drawing.Point(506, 173);
+            this.btnMultiplicar.Name = "btnMultiplicar";
+            this.btnMultiplicar.Size = new System.Drawing.Size(99, 85);
+            this.btnMultiplicar.TabIndex = 6;
+            this.btnMultiplicar.Text = "Multiplicar";
+            this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
-            // txtIngresarUno
+            // lblResultado
             // 
-            this.txtIngresarUno.Location = new System.Drawing.Point(21, 97);
-            this.txtIngresarUno.Name = "txtIngresarUno";
-            this.txtIngresarUno.Size = new System.Drawing.Size(100, 20);
-            this.txtIngresarUno.TabIndex = 1;
-            this.txtIngresarUno.TextChanged += new System.EventHandler(this.txtIngresarUno_TextChanged);
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblResultado.Location = new System.Drawing.Point(181, 136);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(67, 17);
+            this.lblResultado.TabIndex = 4;
+            this.lblResultado.Text = "resultado";
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // txtIngresarDos
             // 
@@ -97,53 +100,53 @@
             this.lblNumero2.Text = "Numero dos :";
             this.lblNumero2.Click += new System.EventHandler(this.lblNumero2_Click);
             // 
-            // lblResultado
+            // txtIngresarUno
             // 
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblResultado.Location = new System.Drawing.Point(181, 136);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(67, 17);
-            this.lblResultado.TabIndex = 4;
-            this.lblResultado.Text = "resultado";
-            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
+            this.txtIngresarUno.Location = new System.Drawing.Point(21, 97);
+            this.txtIngresarUno.Name = "txtIngresarUno";
+            this.txtIngresarUno.Size = new System.Drawing.Size(100, 20);
+            this.txtIngresarUno.TabIndex = 1;
+            this.txtIngresarUno.TextChanged += new System.EventHandler(this.txtIngresarUno_TextChanged);
             // 
-            // btnMultiplicar
+            // lblNumero1
             // 
-            this.btnMultiplicar.Location = new System.Drawing.Point(506, 173);
-            this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(99, 61);
-            this.btnMultiplicar.TabIndex = 6;
-            this.btnMultiplicar.Text = "Multiplicar";
-            this.btnMultiplicar.UseVisualStyleBackColor = true;
-            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
-            // 
-            // btnDividir
-            // 
-            this.btnDividir.Location = new System.Drawing.Point(367, 173);
-            this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(99, 61);
-            this.btnDividir.TabIndex = 7;
-            this.btnDividir.Text = "dividir";
-            this.btnDividir.UseVisualStyleBackColor = true;
-            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
+            this.lblNumero1.AutoSize = true;
+            this.lblNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblNumero1.Location = new System.Drawing.Point(18, 62);
+            this.lblNumero1.Name = "lblNumero1";
+            this.lblNumero1.Size = new System.Drawing.Size(90, 17);
+            this.lblNumero1.TabIndex = 0;
+            this.lblNumero1.Text = "Numero uno:";
+            this.lblNumero1.Click += new System.EventHandler(this.lblNumero1_Click);
             // 
             // btnResta
             // 
+            this.btnResta.Image = global::operaciones.Properties.Resources.subtract_4892891__2_;
             this.btnResta.Location = new System.Drawing.Point(506, 56);
             this.btnResta.Name = "btnResta";
-            this.btnResta.Size = new System.Drawing.Size(99, 61);
+            this.btnResta.Size = new System.Drawing.Size(99, 79);
             this.btnResta.TabIndex = 8;
             this.btnResta.Text = "Resta";
             this.btnResta.UseVisualStyleBackColor = true;
             this.btnResta.Click += new System.EventHandler(this.btnResta_Click);
             // 
+            // btnDividir
+            // 
+            this.btnDividir.Image = global::operaciones.Properties.Resources.division_5602267;
+            this.btnDividir.Location = new System.Drawing.Point(367, 173);
+            this.btnDividir.Name = "btnDividir";
+            this.btnDividir.Size = new System.Drawing.Size(99, 85);
+            this.btnDividir.TabIndex = 7;
+            this.btnDividir.Text = "dividir";
+            this.btnDividir.UseVisualStyleBackColor = true;
+            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
+            // 
             // btnSuma
             // 
-            this.btnSuma.Image = global::operaciones.Properties.Resources.mas;
+            this.btnSuma.Image = global::operaciones.Properties.Resources.agregar;
             this.btnSuma.Location = new System.Drawing.Point(367, 56);
             this.btnSuma.Name = "btnSuma";
-            this.btnSuma.Size = new System.Drawing.Size(99, 70);
+            this.btnSuma.Size = new System.Drawing.Size(99, 79);
             this.btnSuma.TabIndex = 5;
             this.btnSuma.Text = "Suma";
             this.btnSuma.UseVisualStyleBackColor = true;

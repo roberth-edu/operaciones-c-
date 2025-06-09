@@ -98,5 +98,26 @@
   <ItemGroup>
     <None Include="Resources\mas %283%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subtract_4892891.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subtract_4892891 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subtract_4892891 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\division_5602267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter-x_10085987.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
