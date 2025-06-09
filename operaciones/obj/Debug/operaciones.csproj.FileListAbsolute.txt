@@ -1,0 +1,10 @@
+C:\Users\Estudiante\source\repos\operaciones\operaciones\bin\Debug\operaciones.exe.config
+C:\Users\Estudiante\source\repos\operaciones\operaciones\bin\Debug\operaciones.exe
+C:\Users\Estudiante\source\repos\operaciones\operaciones\bin\Debug\operaciones.pdb
+C:\Users\Estudiante\source\repos\operaciones\operaciones\obj\Debug\operaciones.csproj.AssemblyReference.cache
+C:\Users\Estudiante\source\repos\operaciones\operaciones\obj\Debug\operaciones.Form1.resources
+C:\Users\Estudiante\source\repos\operaciones\operaciones\obj\Debug\operaciones.Properties.Resources.resources
+C:\Users\Estudiante\source\repos\operaciones\operaciones\obj\Debug\operaciones.csproj.GenerateResource.cache
+C:\Users\Estudiante\source\repos\operaciones\operaciones\obj\Debug\operaciones.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\source\repos\operaciones\operaciones\obj\Debug\operaciones.exe
+C:\Users\Estudiante\source\repos\operaciones\operaciones\obj\Debug\operaciones.pdb
